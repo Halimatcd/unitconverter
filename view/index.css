@@ -1,0 +1,29 @@
+#cool {
+    background-color: cornflowerblue;
+    width: 1900px;
+    margin: 0px;
+
+}
+#fort {
+    width: 1000px;
+    margin-left: 350px;
+    margin-right: 1300px;
+}
+#images{
+    width: 2400px;
+}
+body{
+    background-image: url("../img/temperatureA.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fname{
+    width: 40%;
+    height: 5%;
+}
+    
+#pname{
+    width: 40%;
+    height: 5%;
+}
