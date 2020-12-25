@@ -21,7 +21,22 @@ public function GramTOKG(int $valueInGram){
 }
 public function MGtoG(int $MG){
     $this->MG = $MG;
-    $answer = $MG / 1000 . "mg";
+    $answer = $MG / 1000 . "g";
+    return $answer;
+}
+public function GramtoMG(int $valueInGram){
+    $this->$valueInGram = $valueInGram;
+    $answer = $valueInGram * 1000 . "mg";
+    return $answer;
+}
+public function KGtoMG(int $valueInKG){
+    $this->$valueInKG = $valueInKG;
+    $answer =$valueInKG * 1000000 . "mg";
+    return $answer;
+}
+public function MGtoKG (int $MG){
+    $this->$MG = $MG;
+    $answer = $MG/1000000 . "kg";
     return $answer;
 }
 }

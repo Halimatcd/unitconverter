@@ -12,6 +12,7 @@ class distance {
     public function MtoCM(int $M){
         $this->M = $M;
         $answer = $M*100 . "cm";
+        return $answer;
     }
 }
 

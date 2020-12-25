@@ -19,11 +19,25 @@ body{
 }
 
 #fname{
-    width: 40%;
-    height: 5%;
-}
+    width: 20%;
+    height: 5%; 
+ }  
     
 #pname{
     width: 40%;
     height: 5%;
+ }
+#fresh{
+    width:40%;
+    padding:12px 20px;
+    margin:8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-top: 2px;
+    height:17px;
+
+}
+.alert-out{
+    width: 300px;
+    color: blue;
 }
